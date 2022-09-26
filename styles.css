@@ -1,1 +1,99 @@
 
+body {
+    background-image: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+  } 
+  
+  
+  nav {
+    text-align: center;
+    width: 100%;
+    margin: center;
+    
+  }
+  
+  nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  
+  nav span {
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 10px 0;
+  }
+  
+  nav a {
+    color: #666666;
+  }
+  
+  
+  .content {
+    width: auto;
+    height: 500px;
+    margin: 10px 10px;
+    overflow: scroll;
+  }
+  
+  
+  .header {
+    background-image: url("https://pappasburger.com/wp-content/uploads/2022/09/F-PB-Lucy-Juicy-Turkey-Mushroom-09222-860x621.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+
+  }
+  
+  .header h1 {
+    background-color: #05A8AA;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 45%;
+    padding: 20px;
+    margin: 0px auto;
+  }
+  
+  .content .body {
+    margin: 0px auto;
+    width: 90%;
+  }
+  
+  .body p {
+    color: #333333;
+    font-weight: 100;
+    line-height: 34px;
+    width: 90%;
+    margin-top: 18px;
+  }
+  
+  
+  .button {
+    border-radius: 4px;
+    color: #05A8AA;
+    display: block;
+    font-weight: 700;
+    width: 200px;
+    padding: 20px;
+    margin: 40px auto;
+    border: 1px solid blue;
+  }
+  
+  .button:hover {
+    background-color: #05A8AA;
+    border: 1px solid #05A8AA;
+    color: #FFF;
+  }
+  
